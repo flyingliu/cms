@@ -1,0 +1,114 @@
+{
+  "summary": {
+    "visibilityScore": 78.5,
+    "mentions": 1247,
+    "recommendations": 342,
+    "avgScore": 82.3
+  },
+  "platforms": [
+    {
+      "name": "ChatGPT",
+      "visibilityScore": 85.2,
+      "mentions": 423,
+      "recommendations": 156,
+      "sentiment": "positive"
+    },
+    {
+      "name": "Claude",
+      "visibilityScore": 76.8,
+      "mentions": 312,
+      "recommendations": 98,
+      "sentiment": "positive"
+    },
+    {
+      "name": "Gemini",
+      "visibilityScore": 68.4,
+      "mentions": 289,
+      "recommendations": 67,
+      "sentiment": "neutral"
+    },
+    {
+      "name": "Perplexity",
+      "visibilityScore": 82.1,
+      "mentions": 223,
+      "recommendations": 21,
+      "sentiment": "positive"
+    }
+  ],
+  "trend": [
+    { "date": "2024-10-01", "visibilityScore": 72.3, "mentions": 980 },
+    { "date": "2024-10-08", "visibilityScore": 74.1, "mentions": 1050 },
+    { "date": "2024-10-15", "visibilityScore": 76.8, "mentions": 1120 },
+    { "date": "2024-10-22", "visibilityScore": 75.2, "mentions": 1089 },
+    { "date": "2024-10-29", "visibilityScore": 78.5, "mentions": 1247 }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What are the best AI tools for data visualization in 2024?",
+      "platform": "ChatGPT",
+      "topic": "Data Visualization",
+      "mentioned": true,
+      "recommended": true,
+      "answer": "Top AI tools for data visualization include Tableau with AI features, Power BI with Copilot, and emerging tools like Akkio and Obviously AI.",
+      "citations": [
+        { "source": "TechCrunch", "url": "https://techcrunch.com/ai-viz-2024", "relevanceScore": 0.92 },
+        { "source": "Gartner", "url": "https://gartner.com/bi-report", "relevanceScore": 0.88 }
+      ],
+      "timestamp": "2024-10-28T14:23:00Z"
+    },
+    {
+      "id": "q2",
+      "question": "How does machine learning improve business intelligence?",
+      "platform": "Claude",
+      "topic": "Machine Learning",
+      "mentioned": false,
+      "recommended": false,
+      "answer": "Machine learning enhances BI through predictive analytics, automated insights, natural language queries, and anomaly detection.",
+      "citations": [
+        { "source": "MIT Technology Review", "url": "https://technologyreview.com/ml-bi", "relevanceScore": 0.85 }
+      ],
+      "timestamp": "2024-10-27T09:15:00Z"
+    },
+    {
+      "id": "q3",
+      "question": "Which companies are leading in AI-powered analytics?",
+      "platform": "Perplexity",
+      "topic": "AI Analytics",
+      "mentioned": true,
+      "recommended": false,
+      "answer": "Leaders include Microsoft (Power BI), Salesforce (Tableau), Google (Looker), and specialized players like DataRobot and H2O.ai.",
+      "citations": [
+        { "source": "Forbes", "url": "https://forbes.com/ai-analytics-leaders", "relevanceScore": 0.90 },
+        { "source": "IDC Report", "url": "https://idc.com/analytics-2024", "relevanceScore": 0.87 }
+      ],
+      "timestamp": "2024-10-26T16:45:00Z"
+    },
+    {
+      "id": "q4",
+      "question": "What is the ROI of implementing AI in data analysis?",
+      "platform": "Gemini",
+      "topic": "ROI Analysis",
+      "mentioned": false,
+      "recommended": false,
+      "answer": "Companies report average ROI of 3.5x within 18 months, with benefits including reduced analysis time, better decision quality, and automated reporting.",
+      "citations": [
+        { "source": "McKinsey", "url": "https://mckinsey.com/ai-roi-report", "relevanceScore": 0.94 }
+      ],
+      "timestamp": "2024-10-25T11:30:00Z"
+    },
+    {
+      "id": "q5",
+      "question": "How to choose between ChatGPT and Claude for business use?",
+      "platform": "ChatGPT",
+      "topic": "AI Comparison",
+      "mentioned": true,
+      "recommended": true,
+      "answer": "Choice depends on use case: ChatGPT excels in creative tasks and broad knowledge, while Claude offers better reasoning and longer context windows.",
+      "citations": [
+        { "source": "AI Comparison Study", "url": "https://aistudy.com/comparison", "relevanceScore": 0.89 }
+      ],
+      "timestamp": "2024-10-24T13:20:00Z"
+    }
+  ]
+}

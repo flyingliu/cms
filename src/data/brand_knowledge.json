@@ -1,0 +1,118 @@
+{
+  "brand": {
+    "name": "TechVision AI",
+    "description": "Leading provider of AI-powered business intelligence and data visualization solutions",
+    "logo": "/logo.png",
+    "website": "https://techvision-ai.example.com"
+  },
+  "series": [
+    {
+      "id": "series-analytics",
+      "name": "Analytics Platform",
+      "description": "Enterprise-grade AI analytics solutions for data-driven organizations",
+      "products": [
+        {
+          "id": "prod-1",
+          "seriesId": "series-analytics",
+          "name": "DataVision Pro",
+          "slug": "datavision-pro",
+          "description": "AI-powered data visualization platform with automated insights and natural language queries",
+          "keyFeatures": [
+            "Natural Language Query (NLQ) interface",
+            "Automated insight generation",
+            "Real-time collaboration",
+            "200+ data connectors",
+            "Custom AI model training"
+          ],
+          "bestFor": [
+            "Enterprise BI teams",
+            "Data analysts",
+            "Business intelligence departments",
+            "Cross-functional teams"
+          ],
+          "faqs": [
+            {
+              "question": "What data sources does DataVision Pro support?",
+              "answer": "DataVision Pro supports 200+ connectors including SQL databases, cloud warehouses (Snowflake, BigQuery, Redshift), SaaS applications (Salesforce, HubSpot), and file formats (CSV, Excel, JSON)."
+            },
+            {
+              "question": "Is coding required to use DataVision Pro?",
+              "answer": "No coding is required for basic usage. The natural language interface allows users to ask questions in plain English. Advanced users can optionally use SQL or Python for custom transformations."
+            },
+            {
+              "question": "What is the pricing model?",
+              "answer": "DataVision Pro offers tiered pricing: Starter ($99/mo), Professional ($299/mo), and Enterprise (custom). All plans include a 14-day free trial."
+            }
+          ]
+        },
+        {
+          "id": "prod-2",
+          "seriesId": "series-analytics",
+          "name": "PredictAI",
+          "slug": "predictai",
+          "description": "Machine learning platform for predictive analytics without requiring data science expertise",
+          "keyFeatures": [
+            "AutoML pipeline",
+            "One-click model deployment",
+            "Forecasting & anomaly detection",
+            "Model explainability reports",
+            "Integration with existing workflows"
+          ],
+          "bestFor": [
+            "Operations teams",
+            "Finance & planning",
+            "Marketing optimization",
+            "Supply chain management"
+          ],
+          "faqs": [
+            {
+              "question": "Do I need a data scientist to use PredictAI?",
+              "answer": "No. PredictAI automates the entire ML pipeline from data preprocessing to model selection and hyperparameter tuning. Domain experts can build production-ready models without ML expertise."
+            },
+            {
+              "question": "What types of predictions can I make?",
+              "answer": "PredictAI supports regression (numerical forecasting), classification (categorical prediction), and time-series forecasting. Common use cases include demand forecasting, churn prediction, and fraud detection."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "series-collaboration",
+      "name": "Collaboration Tools",
+      "description": "AI-enhanced tools for team collaboration and knowledge sharing",
+      "products": [
+        {
+          "id": "prod-3",
+          "seriesId": "series-collaboration",
+          "name": "TeamInsight",
+          "slug": "teaminsight",
+          "description": "AI-powered team analytics dashboard that tracks collaboration patterns and provides optimization recommendations",
+          "keyFeatures": [
+            "Team performance analytics",
+            "Collaboration network mapping",
+            "AI coaching recommendations",
+            "Integration with Slack/Teams",
+            "Privacy-first design"
+          ],
+          "bestFor": [
+            "Remote teams",
+            "Engineering managers",
+            "HR analytics",
+            "Agile teams"
+          ],
+          "faqs": [
+            {
+              "question": "How does TeamInsight protect employee privacy?",
+              "answer": "TeamInsight uses aggregated, anonymized data. Individual activity is never exposed to managers. Insights are provided at team level only, with minimum team size requirements (5+ members)."
+            },
+            {
+              "question": "What metrics does TeamInsight track?",
+              "answer": "TeamInsight tracks collaboration patterns (meeting time, focus time, response times), work distribution, and team health indicators. It does not track individual productivity or content."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
