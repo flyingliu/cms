@@ -21,10 +21,18 @@ export async function POST(request: Request) {
     // Simulate API delay
     await new Promise(resolve => setTimeout(resolve, 800))
     
-    return NextResponse.json({
-      success: true,
-      data: mockInsight
-    })
+    return NextResponse.json(
+      {
+        success: true,
+        data: mockInsight
+      },
+      {
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Content-Type': 'application/json; charset=utf-8'
+        }
+      }
+    )
   } catch (error) {
     return NextResponse.json(
       { success: false, error: 'Failed to generate AI insight' },

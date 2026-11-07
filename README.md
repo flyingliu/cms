@@ -1,8 +1,16 @@
 # 万悉科技 AI 全栈工程师笔试题
 
-**候选人**: 真才 AI 全栈工程师  
+**候选人**: 刘飞来 
 **技术栈**: Next.js 14 + TypeScript + Tailwind CSS + ECharts  
 **完成时间**: 3 天
+
+## 🌐 在线演示
+
+- **GitHub Pages**: https://YOUR_USERNAME.github.io/cms/
+- **GitHub 仓库**: https://github.com/YOUR_USERNAME/cms
+- **静态 Dashboard**: https://YOUR_USERNAME.github.io/cms/dashboard-static
+
+> ⚠️ GitHub Pages 为静态托管，API 功能使用静态数据版本。完整功能请本地运行或部署到 Vercel。
 
 ---
 
@@ -385,8 +393,8 @@ FAQ
 
 ## 📧 联系方式
 
-**邮箱**: [待填写]  
-**GitHub**: [待填写]  
+**邮箱**: 63480013@qq.com
+**GitHub**: [fling](https://github.com/flyingliu)
 **简历**: 另附
 
 ---

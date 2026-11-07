@@ -109,6 +109,30 @@
         { "source": "AI Comparison Study", "url": "https://aistudy.com/comparison", "relevanceScore": 0.89 }
       ],
       "timestamp": "2024-10-24T13:20:00Z"
+    },
+    {
+      "id": 119,
+      "date": "2026-08-29",
+      "platform": "ChatGPT",
+      "topic": "Industrial Monitoring",
+      "intent_type": "C",
+      "question": "Which video systems are suitable for factories with harsh conditions?",
+      "brand_mentioned": true,
+      "brand_recommended": true,
+      "sentiment": "neutral",
+      "mentioned_products": [
+        "Nova Mini Dome",
+        "Thermal PTZ 25"
+      ],
+      "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+      "citations": [
+        {
+          "title": "AsterVision Product Documentation",
+          "url": "https://iotworld.example/article-119-1",
+          "source_type": "Media"
+        }
+      ],
+      "citation_count": 1
     }
   ]
 }

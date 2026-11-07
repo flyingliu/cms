@@ -30,6 +30,7 @@ export default function Home() {
                   <li>• 问题筛选与分析</li>
                   <li>• AI Insight 生成</li>
                   <li>• REST API 数据流</li>
+                  <li className="text-yellow-600">• ⚡ 静态版本：/dashboard-static</li>
                 </ul>
               </div>
             </div>

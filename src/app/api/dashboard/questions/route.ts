@@ -19,11 +19,19 @@ export async function GET(request: Request) {
       questions = questions.filter(q => q.mentioned === isMentioned)
     }
     
-    return NextResponse.json({
-      success: true,
-      data: questions,
-      total: questions.length
-    })
+    return NextResponse.json(
+      {
+        success: true,
+        data: questions,
+        total: questions.length
+      },
+      {
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Content-Type': 'application/json; charset=utf-8'
+        }
+      }
+    )
   } catch (error) {
     return NextResponse.json(
       { success: false, error: 'Failed to fetch questions' },
